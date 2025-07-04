@@ -1,0 +1,121 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgcolor-blue {
+  background-color:paleturquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.form-bgcolor {
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.bgcolor-khaki {
+  background-color: khaki;
+}
+
+.cookbook {
+  max-width: 800px;
+  background-color: lightyellow;
+  padding: 90px;
+}
+
+.p-mw-600{
+  max-width: 600px;  
+}
+
+.card-shape{
+background-color: white;
+height: 400px;
+/* max-width: 600px; */
+min-width: 300px;
+/* min-height: 400px; */
+border-color: black;
+border: 1px solid black;
+border-radius: 20px;
+}
+
+.body-flex{
+display:flex;
+justify-content: center;
+gap: 20px;
+background-color: lightgray;
+}
+
+.first-small-heart{
+max-height: 30px;
+max-width: 30px;
+}
+
+.second-small-heart{
+max-height: 30px;
+max-width: 30px;
+margin-left: auto;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+transform: rotate(180deg);
+}
+
+.big-heart{
+ max-height: 150px;
+max-width: 120px; 
+}
+
+.first-letter-A{
+color: red;
+font-size: 35px;
+padding: 0px;
+margin: 0px;
+}
+
+.second-letter-A{
+color: red;
+font-size: 35px;
+padding: 0px;
+margin-left: auto;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+transform: rotate(180deg);
+}
+
+.first-card-part{
+height: 25%; 
+justify-content: flex-start;
+flex-direction: column;
+display: flex;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.second-card-part{
+height: 45%;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.third-card-part{
+height: 25%; 
+flex-direction: column;
+justify-content: flex-end;
+display: flex;
+right: 0px;
+margin-right: 10px;
+margin-bottom: 10px;
+}

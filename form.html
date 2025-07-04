@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basic HTML Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bgcolor-blue">
+    <div class="form-container">
+      <h1>Contact Form</h1>
+
+      <form action="/submit-form" method="post" class="form-bgcolor">
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="organization">Your Organization:</label><br />
+        <input
+          type="text"
+          id="organization"
+          name="organization"
+          required
+        /><br /><br />
+
+        <!-- Dropdown List -->
+        <label for="dropdown">Select Option:</label><br />
+        <select id="dropdown" name="dropdown" required>
+          <option value="option1">Pasta</option>
+          <option value="option2">Green Curry Chicken Soup</option>
+          <option value="option3">Soup</option></select
+        ><br /><br />
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe">Are you allergic to gluten?</label><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
